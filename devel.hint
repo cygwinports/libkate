@@ -1,0 +1,9 @@
+category: Audio
+requires: cygwin libkate0 libogg-devel
+external-source: libkate
+sdesc: "Ogg karaoke/text encapsulation codec (libdevel)"
+ldesc: "Kate is a codec for karaoke and text encapsulation for Ogg. Most 
+of the time, this would be multiplexed with audio/video to carry 
+subtitles, song lyrics (with or without karaoke data), etc, but doesn't 
+have to be. A possible use of a lone Kate stream would be an e-book."
+

@@ -1,0 +1,24 @@
+DESCRIPTION="Ogg-based karaoke/text encapsulation codec"
+HOMEPAGE="http://wiki.xiph.org/index.php/OggKate"
+SRC_URI="http://libkate.googlecode.com/files/${P}.tar.gz"
+
+abi=0
+PKG_NAMES="${PN} ${PN}${abi} ${PN}-devel"
+PKG_HINTS="setup dll devel"
+PKG_CONTENTS[0]=	# empty
+PKG_CONTENTS[1]="usr/bin/*-${abi}.dll usr/share/doc/"
+PKG_CONTENTS[2]="usr/include/ usr/lib/"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake libtoollib PREFIX=/usr
+	cygmake -k tools PREFIX=/usr || true
+	rm tools/*.exe
+	cygmake tools CC="libtool --silent --mode=link --tag=CC gcc" PREFIX=/usr
+}
+
+src_install() {
+	cd ${B}
+	cygmake install-libtool DESTDIR=${D} PREFIX=/usr
+}
