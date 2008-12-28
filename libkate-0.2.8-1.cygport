@@ -2,11 +2,10 @@ DESCRIPTION="Ogg-based karaoke/text encapsulation codec"
 HOMEPAGE="http://wiki.xiph.org/index.php/OggKate"
 SRC_URI="http://libkate.googlecode.com/files/${P}.tar.gz"
 
-abi=1
-PKG_NAMES="${PN} ${PN}${abi} ${PN}-devel"
+PKG_NAMES="${PN} ${PN}1 ${PN}-devel"
 PKG_HINTS="setup dll devel"
-PKG_CONTENTS[0]="--exclude=html usr/bin/*.exe usr/share/doc/ usr/share/man/"
-PKG_CONTENTS[1]="usr/bin/*-${abi}.dll"
-PKG_CONTENTS[2]="usr/include/ usr/lib/ usr/share/doc/${P}/html/"
+libkate_CONTENTS="--exclude=html usr/bin/*.exe usr/share/doc/ usr/share/man/"
+libkate1_CONTENTS="usr/bin/*-1.dll"
+libkate_devel_CONTENTS="usr/include/ usr/lib/ usr/share/doc/${P}/html/"
 
 DISTCLEANFILES="doc/Makefile doc/kate.doxygen"

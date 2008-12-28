@@ -16,7 +16,7 @@ Build requirements:
   automake1.10-1.10.1-2
   binutils-20080624-2
   bison-2.3-1
-  cygport-0.4.2-1
+  cygport-0.4.3-1
   flex-2.5.35-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
@@ -34,17 +34,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libkate-0.2.6-X-src.tar.bz2
+  unpack libkate-0.2.8-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libkate-0.2.6-X.cygport all
+  cygport ./libkate-0.2.8-X.cygport all
 
 This will create:
-  /usr/src/libkate-0.2.6-X-src.tar.bz2
-  /usr/src/libkate-0.2.6-X.tar.bz2
-  /usr/src/libkate-devel-0.2.6-X.tar.bz2
-  /usr/src/libkate1-0.2.6-X.tar.bz2
+  /usr/src/libkate-0.2.8-X-src.tar.bz2
+  /usr/src/libkate-0.2.8-X.tar.bz2
+  /usr/src/libkate-devel-0.2.8-X.tar.bz2
+  /usr/src/libkate1-0.2.8-X.tar.bz2
 
 -------------------------------------------
 
@@ -53,12 +53,12 @@ Files included in the binary packages:
 (libkate)
   /usr/bin/katedec.exe
   /usr/bin/kateenc.exe
-  /usr/share/doc/libkate-0.2.6/AUTHORS
-  /usr/share/doc/libkate-0.2.6/COPYING
-  /usr/share/doc/libkate-0.2.6/ChangeLog
-  /usr/share/doc/libkate-0.2.6/INSTALL
-  /usr/share/doc/libkate-0.2.6/README
-  /usr/share/doc/libkate-0.2.6/THANKS
+  /usr/share/doc/libkate-0.2.8/AUTHORS
+  /usr/share/doc/libkate-0.2.8/COPYING
+  /usr/share/doc/libkate-0.2.8/ChangeLog
+  /usr/share/doc/libkate-0.2.8/INSTALL
+  /usr/share/doc/libkate-0.2.8/README
+  /usr/share/doc/libkate-0.2.8/THANKS
   /usr/share/man/man1/katedec.1.gz
   /usr/share/man/man1/kateenc.1.gz
 
@@ -78,97 +78,100 @@ Files included in the binary packages:
   /usr/lib/liboggkate.la
   /usr/lib/pkgconfig/kate.pc
   /usr/lib/pkgconfig/oggkate.pc
-  /usr/share/doc/libkate-0.2.6/html/Format.html
-  /usr/share/doc/libkate-0.2.6/html/HOWTO.html
-  /usr/share/doc/libkate-0.2.6/html/Support.html
-  /usr/share/doc/libkate-0.2.6/html/annotated.html
-  /usr/share/doc/libkate-0.2.6/html/categories.html
-  /usr/share/doc/libkate-0.2.6/html/config_8h-source.html
-  /usr/share/doc/libkate-0.2.6/html/decoding_8c-example.html
-  /usr/share/doc/libkate-0.2.6/html/doxygen.css
-  /usr/share/doc/libkate-0.2.6/html/doxygen.png
-  /usr/share/doc/libkate-0.2.6/html/encoding_8c-example.html
-  /usr/share/doc/libkate-0.2.6/html/errors.html
-  /usr/share/doc/libkate-0.2.6/html/examples.html
-  /usr/share/doc/libkate-0.2.6/html/files.html
-  /usr/share/doc/libkate-0.2.6/html/format_0x00.html
-  /usr/share/doc/libkate-0.2.6/html/format_0x01.html
-  /usr/share/doc/libkate-0.2.6/html/format_0x7f.html
-  /usr/share/doc/libkate-0.2.6/html/format_0x80.html
-  /usr/share/doc/libkate-0.2.6/html/format_0x81.html
-  /usr/share/doc/libkate-0.2.6/html/format_0x82.html
-  /usr/share/doc/libkate-0.2.6/html/format_0x83.html
-  /usr/share/doc/libkate-0.2.6/html/format_0x84.html
-  /usr/share/doc/libkate-0.2.6/html/format_0x85.html
-  /usr/share/doc/libkate-0.2.6/html/format_0x86.html
-  /usr/share/doc/libkate-0.2.6/html/format_0x87.html
-  /usr/share/doc/libkate-0.2.6/html/format_0x88.html
-  /usr/share/doc/libkate-0.2.6/html/format_32v.html
-  /usr/share/doc/libkate-0.2.6/html/format_bitmap.html
-  /usr/share/doc/libkate-0.2.6/html/format_color.html
-  /usr/share/doc/libkate-0.2.6/html/format_curve.html
-  /usr/share/doc/libkate-0.2.6/html/format_font_range.html
-  /usr/share/doc/libkate-0.2.6/html/format_fp.html
-  /usr/share/doc/libkate-0.2.6/html/format_motion.html
-  /usr/share/doc/libkate-0.2.6/html/format_palette.html
-  /usr/share/doc/libkate-0.2.6/html/format_region.html
-  /usr/share/doc/libkate-0.2.6/html/format_rle.html
-  /usr/share/doc/libkate-0.2.6/html/format_style.html
-  /usr/share/doc/libkate-0.2.6/html/format_warp.html
-  /usr/share/doc/libkate-0.2.6/html/functions.html
-  /usr/share/doc/libkate-0.2.6/html/functions_vars.html
-  /usr/share/doc/libkate-0.2.6/html/globals.html
-  /usr/share/doc/libkate-0.2.6/html/globals_defs.html
-  /usr/share/doc/libkate-0.2.6/html/globals_enum.html
-  /usr/share/doc/libkate-0.2.6/html/globals_eval.html
-  /usr/share/doc/libkate-0.2.6/html/globals_func.html
-  /usr/share/doc/libkate-0.2.6/html/granule.html
-  /usr/share/doc/libkate-0.2.6/html/group__comments.html
-  /usr/share/doc/libkate-0.2.6/html/group__decoding.html
-  /usr/share/doc/libkate-0.2.6/html/group__encoding.html
-  /usr/share/doc/libkate-0.2.6/html/group__font.html
-  /usr/share/doc/libkate-0.2.6/html/group__granule.html
-  /usr/share/doc/libkate-0.2.6/html/group__high.html
-  /usr/share/doc/libkate-0.2.6/html/group__info.html
-  /usr/share/doc/libkate-0.2.6/html/group__misc.html
-  /usr/share/doc/libkate-0.2.6/html/group__ogg__decode.html
-  /usr/share/doc/libkate-0.2.6/html/group__ogg__encode.html
-  /usr/share/doc/libkate-0.2.6/html/group__packet.html
-  /usr/share/doc/libkate-0.2.6/html/group__text.html
-  /usr/share/doc/libkate-0.2.6/html/group__tracker.html
-  /usr/share/doc/libkate-0.2.6/html/group__version.html
-  /usr/share/doc/libkate-0.2.6/html/high_8c-example.html
-  /usr/share/doc/libkate-0.2.6/html/index.html
-  /usr/share/doc/libkate-0.2.6/html/kate_8h-source.html
-  /usr/share/doc/libkate-0.2.6/html/kate_8h.html
-  /usr/share/doc/libkate-0.2.6/html/kate__config_8h-source.html
-  /usr/share/doc/libkate-0.2.6/html/modules.html
-  /usr/share/doc/libkate-0.2.6/html/oggkate_8h-source.html
-  /usr/share/doc/libkate-0.2.6/html/oggkate_8h.html
-  /usr/share/doc/libkate-0.2.6/html/pages.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__bitmap.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__color.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__comment.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__curve.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__event.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__font__mapping.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__font__range.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__info.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__motion.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__packet.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__palette.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__region.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__state.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__style.html
-  /usr/share/doc/libkate-0.2.6/html/structkate__tracker.html
-  /usr/share/doc/libkate-0.2.6/html/tab_b.gif
-  /usr/share/doc/libkate-0.2.6/html/tab_l.gif
-  /usr/share/doc/libkate-0.2.6/html/tab_r.gif
-  /usr/share/doc/libkate-0.2.6/html/tabs.css
+  /usr/share/doc/libkate-0.2.8/html/Format.html
+  /usr/share/doc/libkate-0.2.8/html/HOWTO.html
+  /usr/share/doc/libkate-0.2.8/html/Support.html
+  /usr/share/doc/libkate-0.2.8/html/annotated.html
+  /usr/share/doc/libkate-0.2.8/html/categories.html
+  /usr/share/doc/libkate-0.2.8/html/config_8h-source.html
+  /usr/share/doc/libkate-0.2.8/html/decoding_8c-example.html
+  /usr/share/doc/libkate-0.2.8/html/doxygen.css
+  /usr/share/doc/libkate-0.2.8/html/doxygen.png
+  /usr/share/doc/libkate-0.2.8/html/encoding_8c-example.html
+  /usr/share/doc/libkate-0.2.8/html/errors.html
+  /usr/share/doc/libkate-0.2.8/html/examples.html
+  /usr/share/doc/libkate-0.2.8/html/files.html
+  /usr/share/doc/libkate-0.2.8/html/format_0x00.html
+  /usr/share/doc/libkate-0.2.8/html/format_0x01.html
+  /usr/share/doc/libkate-0.2.8/html/format_0x7f.html
+  /usr/share/doc/libkate-0.2.8/html/format_0x80.html
+  /usr/share/doc/libkate-0.2.8/html/format_0x81.html
+  /usr/share/doc/libkate-0.2.8/html/format_0x82.html
+  /usr/share/doc/libkate-0.2.8/html/format_0x83.html
+  /usr/share/doc/libkate-0.2.8/html/format_0x84.html
+  /usr/share/doc/libkate-0.2.8/html/format_0x85.html
+  /usr/share/doc/libkate-0.2.8/html/format_0x86.html
+  /usr/share/doc/libkate-0.2.8/html/format_0x87.html
+  /usr/share/doc/libkate-0.2.8/html/format_0x88.html
+  /usr/share/doc/libkate-0.2.8/html/format_32v.html
+  /usr/share/doc/libkate-0.2.8/html/format_bitmap.html
+  /usr/share/doc/libkate-0.2.8/html/format_color.html
+  /usr/share/doc/libkate-0.2.8/html/format_curve.html
+  /usr/share/doc/libkate-0.2.8/html/format_font_range.html
+  /usr/share/doc/libkate-0.2.8/html/format_fp.html
+  /usr/share/doc/libkate-0.2.8/html/format_motion.html
+  /usr/share/doc/libkate-0.2.8/html/format_palette.html
+  /usr/share/doc/libkate-0.2.8/html/format_region.html
+  /usr/share/doc/libkate-0.2.8/html/format_rle.html
+  /usr/share/doc/libkate-0.2.8/html/format_style.html
+  /usr/share/doc/libkate-0.2.8/html/format_warp.html
+  /usr/share/doc/libkate-0.2.8/html/functions.html
+  /usr/share/doc/libkate-0.2.8/html/functions_vars.html
+  /usr/share/doc/libkate-0.2.8/html/globals.html
+  /usr/share/doc/libkate-0.2.8/html/globals_defs.html
+  /usr/share/doc/libkate-0.2.8/html/globals_enum.html
+  /usr/share/doc/libkate-0.2.8/html/globals_eval.html
+  /usr/share/doc/libkate-0.2.8/html/globals_func.html
+  /usr/share/doc/libkate-0.2.8/html/granule.html
+  /usr/share/doc/libkate-0.2.8/html/group__comments.html
+  /usr/share/doc/libkate-0.2.8/html/group__decoding.html
+  /usr/share/doc/libkate-0.2.8/html/group__encoding.html
+  /usr/share/doc/libkate-0.2.8/html/group__font.html
+  /usr/share/doc/libkate-0.2.8/html/group__granule.html
+  /usr/share/doc/libkate-0.2.8/html/group__high.html
+  /usr/share/doc/libkate-0.2.8/html/group__info.html
+  /usr/share/doc/libkate-0.2.8/html/group__misc.html
+  /usr/share/doc/libkate-0.2.8/html/group__ogg__decode.html
+  /usr/share/doc/libkate-0.2.8/html/group__ogg__encode.html
+  /usr/share/doc/libkate-0.2.8/html/group__packet.html
+  /usr/share/doc/libkate-0.2.8/html/group__text.html
+  /usr/share/doc/libkate-0.2.8/html/group__tracker.html
+  /usr/share/doc/libkate-0.2.8/html/group__version.html
+  /usr/share/doc/libkate-0.2.8/html/high_8c-example.html
+  /usr/share/doc/libkate-0.2.8/html/index.html
+  /usr/share/doc/libkate-0.2.8/html/kate_8h-source.html
+  /usr/share/doc/libkate-0.2.8/html/kate_8h.html
+  /usr/share/doc/libkate-0.2.8/html/kate__config_8h-source.html
+  /usr/share/doc/libkate-0.2.8/html/modules.html
+  /usr/share/doc/libkate-0.2.8/html/oggkate_8h-source.html
+  /usr/share/doc/libkate-0.2.8/html/oggkate_8h.html
+  /usr/share/doc/libkate-0.2.8/html/pages.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__bitmap.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__color.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__comment.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__curve.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__event.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__font__mapping.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__font__range.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__info.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__motion.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__packet.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__palette.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__region.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__state.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__style.html
+  /usr/share/doc/libkate-0.2.8/html/structkate__tracker.html
+  /usr/share/doc/libkate-0.2.8/html/tab_b.gif
+  /usr/share/doc/libkate-0.2.8/html/tab_l.gif
+  /usr/share/doc/libkate-0.2.8/html/tab_r.gif
+  /usr/share/doc/libkate-0.2.8/html/tabs.css
 
 ------------------
 
 Port Notes:
+
+----- version 0.2.8-1 -----
+Version bump.
 
 ----- version 0.2.6-1 -----
 Version bump.
