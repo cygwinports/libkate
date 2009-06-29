@@ -1,5 +1,5 @@
 category: Audio
-requires: cygwin libkate1 libogg0 libpng12
+requires: libkate1 libogg0 libpng12
 sdesc: "Ogg karaoke/text encapsulation codec (source)"
 ldesc: "Kate is a codec for karaoke and text encapsulation for Ogg. Most 
 of the time, this would be multiplexed with audio/video to carry 
