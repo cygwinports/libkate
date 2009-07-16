@@ -1,6 +1,6 @@
 category: Audio
-requires: libkate1 libogg0 libpng12
-sdesc: "Ogg karaoke/text encapsulation codec (source)"
+requires: libgcc1 libkate1 libogg0 libpng12
+sdesc: "Ogg karaoke/text encapsulation codec (utilities)"
 ldesc: "Kate is a codec for karaoke and text encapsulation for Ogg. Most 
 of the time, this would be multiplexed with audio/video to carry 
 subtitles, song lyrics (with or without karaoke data), etc, but doesn't 

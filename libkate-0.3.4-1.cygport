@@ -1,0 +1,14 @@
+inherit python
+
+DESCRIPTION="Ogg-based karaoke/text encapsulation codec"
+HOMEPAGE="http://wiki.xiph.org/index.php/OggKate"
+SRC_URI="http://libkate.googlecode.com/files/${P}.tar.gz"
+
+PKG_NAMES="${PN} ${PN}1 ${PN}-devel katedj"
+PKG_HINTS="setup dll devel katedj"
+libkate_CONTENTS="--exclude=html usr/bin/*.exe usr/share/doc/ usr/share/man/man1/kat*"
+libkate1_CONTENTS="usr/bin/*-1.dll"
+libkate_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/doc/${PN}/html/"
+katedj_CONTENTS="usr/bin/KateDJ ${PYTHON_SITELIB#/}/kdj/ usr/share/man/man1/KateDJ.*"
+
+DISTCLEANFILES="doc/Makefile doc/kate.doxygen"
